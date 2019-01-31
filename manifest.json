@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "__MSG_appName__",
+	"short_name":"Daily Life",
+  "background": {
+    "scripts": [ "scripts/script_back.js" ]
+  },
+  "browser_action": {
+    "default_icon": "images/icone64.png",
+    "default_popup": "pages/index.html",
+    "default_title": "Daily Life Extension"
+  },
+  "description": "__MSG_appDescription__",
+  "icons": {
+    "128": "images/icone128.png",
+    "64": "images/icone64.png",
+    "32": "images/icone32.png",
+    "16": "images/icone16.png"
+  },
+  "options_page": "pages/page_option.html",
+  "permissions": [
+    "notifications",
+    "tabs",
+    "unlimitedStorage"
+  ],
+  "default_locale":"en",
+  "version": "0.0.1",
+  "author":"Lupusanghren @Lupusanghrenn"
+}
